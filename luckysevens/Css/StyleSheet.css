@@ -1,0 +1,60 @@
+﻿body {
+
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+
+    background-color: white;
+    color:black;
+    border-color: black;
+    font-weight:bold;
+}
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+        border-color: black;
+        font-weight: 900;
+    }
+
+span {
+    display: inline-block;
+    position: relative;
+}
+
+input {
+    border: 2px solid #c9c9c9;
+    box-shadow: none;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 1.5em;
+    height: 42px;
+    padding-left: 20px;
+}
+
+span::before {
+    content: "$";
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 1em;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 6.75px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}

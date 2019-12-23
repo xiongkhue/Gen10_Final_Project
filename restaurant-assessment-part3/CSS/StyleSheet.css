@@ -1,0 +1,44 @@
+﻿.jumbotron {
+    text-align: center;
+    margin:0;
+}
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid grey;
+    background-color: white;
+    height: 90px;
+    margin-bottom: -20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-color:white;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: cadetblue;
+    margin: 1%;
+}
+
+.nav-pills .nav-link.active:visited {
+    background-color: cadetblue;
+    margin: 1%;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Autour+One&display=swap');

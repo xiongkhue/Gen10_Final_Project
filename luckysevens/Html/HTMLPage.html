@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LuckySevens</title>
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="..\Css\StyleSheet.css">
+</head>
+<body>
+    <header><h1>Lucky Sevens</h1></header>
+
+    <div class="container-fluid">
+        <form class="needs-validation" novalidate style="text-align:center; padding-bottom:50px;">
+            <div class="form-group row">
+                <div class="col-sm-3"></div>
+                <label for="startBet" class="col-sm-3 col-form-label">Starting Bet:</label>
+                <div class="col-sm-2">
+                    <span>
+                        <input type="number" class="form-control" id="stBet" placeholder="0.00" required>
+                    </span>
+                </div>
+            </div>
+            <button id="playbtn" class="btn btn-primary center" type="submit">Play</button>
+        </form>
+        <div id="results">
+            <hr />
+            <table>
+                <h1>Results</h1>
+                <tr>
+                    <th>Starting Bet</th>
+                    <th id="startingBet"></th>
+                </tr>
+                <tr>
+                    <td>Total Rolls Before Going Broke</td>
+                    <td id="diceRCount"></td>
+                </tr>
+                <tr>
+                    <td>Highest Amount Won</td>
+                    <td id="highestAmount"></td>
+                </tr>
+                <tr>
+                    <td>Roll Count at Highest Amount Won</td>
+                    <td id="highRCount"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="..\Html\JavaScript\Script.js"></script>
+</body>
+</html>
